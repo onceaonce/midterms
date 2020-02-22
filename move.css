@@ -1,0 +1,245 @@
+#cointainer{
+    position:absolute;
+    top: -85%;
+    left: -17%;
+    }
+
+.circle {
+    background: lightblue;
+    position: absolute;
+    border-radius: 50%;
+    border-style: solid;
+    border-color:black;
+    width: 100px;
+    height: 100px;
+    top: -85%;
+    left: -17px;
+    z-index: 1;
+}
+.body {
+      position: absolute;
+      border-style: solid;
+      border-color:black;
+      width: 70px;
+      height: 120px;
+      background: red;
+      top: 35%;
+      left: 566px;
+}
+
+.arm {
+    border:100px;
+    width: 50px;
+    height:20px;
+    }
+
+.armleft{
+    width: 50px;
+    height: 50px;
+    border-bottom: 25px solid black;
+    border-left: 25px solid black;
+    position: absolute;
+    left: -40%;
+    top: 20%;
+    transform: rotate(50deg);
+    }
+
+.armright{
+    width: 50px;
+    height: 50px;
+    border-bottom: 25px solid black;
+    border-left: 25px solid black;
+    position: absolute;
+    left: 65%;
+    top: -10%;
+    transform: rotate(-30deg);
+    z-index: -1;
+    }
+
+.legright{
+      position: absolute;
+      border-style: solid;
+      border-color:black;
+      width: 30px;
+      height: 60px;
+      background: lightblue;
+      transform: rotate(-1deg);
+      top: 100%;
+      left: 50%;
+    }
+
+.legleft{
+      position: absolute;
+      border-style: solid;
+      border-color:black;
+      width: 30px;
+      height: 60px;
+      background: gray;
+      transform: rotate(1deg);
+      top: 100%;
+      right: 50%;
+    }
+
+.legrightbaba{
+      position: absolute;
+      border-style: solid;
+      border-color:black;
+      width: 30px;
+      height: 60px;
+      background: gray;
+      transform: rotate(-1deg);
+      top: 132%;
+      left: 52%;
+    }
+
+.legleftbaba{
+      position: absolute;
+      border-style: solid;
+      border-color:black;
+      width: 30px;
+      height: 60px;
+      background: lightblue;
+      transform: rotate(1deg);
+      top: 132%;
+      right: 52%;
+    }
+
+.sapatosr {
+      border-bottom: 25px solid black;
+      border-left: 6px solid transparent;
+      border-right: 6px solid transparent;
+      height: 0;
+      width: 25px;
+      position: absolute;
+      bottom: -105%;
+      left: 50%;
+    }
+
+.sapatosl {
+      border-bottom: 25px solid black;
+      border-left: 6px solid transparent;
+      border-right: 6px solid transparent;
+      height: 0;
+      width: 25px;
+      position: absolute;
+      bottom: -105%;
+      right: 50%;
+    }
+
+.move1 .armleft{
+     position: absolute;
+     left: 13%;
+     top: 15%;
+     transform: rotate(-5deg);
+    }
+
+.move1 .armright{
+     position: absolute;
+     left: -36%;
+     top: 18%;
+     transform: rotate(35deg);
+     z-index: -1;
+    }
+
+.move1 .legright{
+    position: absolute;
+    transform: rotate(-35deg);
+    top: 90%;
+    left: 50%;
+    z-index: -1;
+    }
+
+.move1 .legleft{
+    position: absolute;
+    transform: rotate(1deg);
+    top: 100%;
+    right: 50%;
+      }
+
+.move1 .legleftbaba {
+     position: absolute;
+     transform: rotate(3deg);
+     top: 132%;
+     right: 52%;
+     }
+
+.move1 .legrightbaba{
+    position: absolute;
+    transform: rotate(-10deg);
+    top: 132%;
+    left: 80%;
+      }
+
+.move1 .sapatosr{
+     position: absolute;
+     bottom: -105%;
+     transform: rotate(-10deg);
+     left: 88%;
+    }
+
+.move1 .sapatosl{
+     position: absolute;
+     bottom: -105%;
+     right: 53%;
+    }
+
+
+.move2 .armleft{
+     position: absolute;
+     left: 30%;
+     top: -10%;
+     transform: rotate(-60deg);
+    }
+
+.move2 .armright{
+     position: absolute;
+     left: -50%;
+     top: 18%;
+     transform: rotate(55deg);
+     z-index: -1;
+    }
+
+.move2 .legright{
+    position: absolute;
+    transform: rotate(-45deg);
+    top: 90%;
+    left: 65%;
+    z-index: -1;
+    }
+
+.move2 .legleft{
+    position: absolute;
+    transform: rotate(35deg);
+    top: 90%;
+    right: 65%;
+    z-index: -1;
+
+      }
+
+.move2 .legleftbaba {
+     position: absolute;
+     transform: rotate(60deg);
+     top: 119%;
+     right: 117%;
+     }
+
+.move2 .legrightbaba{
+    position: absolute;
+    transform: rotate(-15deg);
+    top: 128%;
+    left: 99%;
+      }
+
+.move2 .sapatosr{
+     position: absolute;
+     bottom: -101%;
+     left: 113%;
+     transform: rotate(-15deg);
+    }
+
+.move2 .sapatosl{
+     position: absolute;
+     top: 153%;
+     right: 170%;
+     transform: rotate(60deg);
+    }    
